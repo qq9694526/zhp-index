@@ -1,30 +1,28 @@
 <template>
 	<div id="app">
-		<iphone></iphone>
+		<v-nav></v-nav>
 		<router-view></router-view>
 	</div>
 </template>
 
 <script>
-	import iphone from './components/iphone/iphone'
+	import './assets/css/reset.css'
+	import vIphone from './components/iphone/iphone'
+	import vNav from './components/nav/nav'
 	export default {
 		name: 'app',
 		components: {
-			iphone
+			vNav,
+			vIphone
 		}
 	}
 </script>
 
 <style lang="less">
 	#app {
-		font-family: 'Avenir', Helvetica, Arial, sans-serif;
+		font-family: '微软雅黑','Avenir', Helvetica, Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-		text-align: center;
-		color: #2c3e50;
-		margin-top: 60px;
-		img {
-			border-radius: 50%;
-		}
+		color: #333;
 	}
 </style>
