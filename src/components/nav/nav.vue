@@ -8,10 +8,10 @@
 				<router-link to="/index">首页</router-link>
 			</li>
 			<li class="item">
-				<router-link to="/hello">Hello</router-link>
+				<router-link to="/compts">组件库</router-link>
 			</li>
 			<li class="item">
-				<router-link to="/compts">组件库</router-link>
+				<router-link to="/blog">博客</router-link>
 			</li>
 			<li class="item">
 				<router-link to="/about">关于</router-link>
@@ -34,6 +34,10 @@
 	}
 	
 	.header {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		z-index: 1000;
 		box-shadow: 0 0 1px rgba(0, 0, 0, 0.25);
 		transition: background-color 0.3s ease-in-out;
 		background-color: #fff;
@@ -55,7 +59,7 @@
 			.item {
 				display: inline-block;
 				font-size: 16px;
-				padding: 0 20px;
+				padding: 10px 20px;
 				a {
 					padding-bottom: 5px;
 					&:hover {

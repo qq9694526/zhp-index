@@ -24,5 +24,6 @@
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		color: #333;
+		padding-top: 60px;
 	}
 </style>

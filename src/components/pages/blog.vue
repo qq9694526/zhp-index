@@ -1,8 +1,9 @@
 <template>
-	<div class="compts">
+	<div class="blog">
 		<section class="section">
-			<h1>基于Vue的响应式组件库</h1>
-			<p>紧锣密鼓筹备中……</p>
+			<h1>我的博客</h1>
+			<p>计划后的计划，组件库完成且后端能力修炼成功后才能动工</p>
+			<p>小伙伴们可以先去我的<a href="http://www.cnblogs.com/qq9694526/">博客园</a>看看</p>
 		</section>
 	</div>
 </template>

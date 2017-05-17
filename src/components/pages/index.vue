@@ -2,23 +2,17 @@
 	<div class="index">
 		<section class="section">
 			<h1>初衷</h1>
-			<p>作为一个面向未来的web前端工程师，最痛苦的事莫过于不能学以致用。而使用webpack+vue全家桶构建的本站，可以让自己很好的应用ES6、vue等最前沿前端技术，达到学以致用的目的。</p>
+			<p>作为一个面向未来的web前端工程师，最痛苦的事莫过于不能<b>学以致用</b>。而使用webpack+vue全家桶构建的本站，可以让自己很好的应用ES6、vue等最前沿前端技术，达到学以致用的目的。</p>
 		</section>
 		<section class="section section-flex">
 			<div class="left">
 				<h1>在路上</h1>
 				<p>近一年工作成果展示&nbsp;&nbsp;&nbsp;---></p>
-				<div class="code-wrapper">
+				<p>微信扫码,获取更佳浏览体验</p>
+				<p>
 					<img class="codeimg" src="../../assets/img/workerscode.png" />
-					<ul class="text">
-						<li>
-							微信扫码获取更佳浏览体验
-						</li>
-						<li>
-							ps:感谢後同学的UI设计
-						</li>
-					</ul>
-				</div>
+					<small>ps:感谢侯晓利同学友情提供的UI</small>
+				</p>
 			</div>
 			<div class="right">
 				<v-iphone></v-iphone>
@@ -64,6 +58,10 @@
 			flex: 1;
 			flex-direction: column;
 			justify-content: center;
+			.codeimg{
+				width: 35%;
+				vertical-align: text-bottom;
+			}
 		}
 		.right {
 			flex: 0;

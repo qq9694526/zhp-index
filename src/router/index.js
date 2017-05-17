@@ -4,6 +4,7 @@ import Hello from '@/components/Hello'
 import index from '@/components/pages/index'
 import about from '@/components/pages/about'
 import compts from '@/components/pages/compts'
+import blog from '@/components/pages/blog'
 
 Vue.use(Router)
 
@@ -32,6 +33,11 @@ export default new Router({
       path: '/compts',
       name: 'compts',
       component: compts
+    },
+    {
+      path: '/blog',
+      name: 'blog',
+      component: blog
     }
   ]
 })
