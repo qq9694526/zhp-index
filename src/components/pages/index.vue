@@ -8,6 +8,17 @@
 			<div class="left">
 				<h1>在路上</h1>
 				<p>近一年工作成果展示&nbsp;&nbsp;&nbsp;---></p>
+				<div class="code-wrapper">
+					<img class="codeimg" src="../../assets/img/workerscode.png" />
+					<ul class="text">
+						<li>
+							微信扫码获取更佳浏览体验
+						</li>
+						<li>
+							ps:感谢後同学的UI设计
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="right">
 				<v-iphone></v-iphone>
@@ -49,11 +60,27 @@
 	.section-flex {
 		display: flex;
 		.left {
+			display: flex;
 			flex: 1;
-			margin-top: 20%;
+			flex-direction: column;
+			justify-content: center;
 		}
 		.right {
 			flex: 0;
+		}
+	}
+	
+	.code-wrapper {
+		display: flex;
+		.codeimg {
+			flex: 0 0 20%;
+		}
+		.text{
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+			font-size: 1rem;
+			line-height: 1.5rem;
 		}
 	}
 </style>

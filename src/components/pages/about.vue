@@ -1,0 +1,66 @@
+<template>
+	<div class="about">
+		<section class="section">
+			<h1>关于</h1>
+			<p>我叫赵海鹏，一名<b>成熟、有理想</b>的web前端工程师。</p>
+			<!--<p>座右铭：拥抱最新前端技术，打造极致用户体验。</p>-->
+		</section>
+		<section class="section">
+			<h1>联系</h1>
+			<p>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=9694526&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:9694526:51" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+			</p>
+		</section>
+		<section class="section">
+			<h1>项目</h1>
+			<p>所有开放源代码都可以在
+				<a href="https://github.com/qq9694526">GitHub</a>
+				上找到。</br>
+				如果对你有所帮助，记得star。</p>
+		</section>
+		<section class="section section-flex">
+			<div class="left">
+				<h1>捐赠与赞赏</h1>
+				<p>你可以通过支付宝，捐赠或者赞赏我。</p>
+				<p>支持24小时无理由退款。</p>
+			</div>
+			<div class="right">
+				<img class="codeimg" src="../../assets/img/zhifucode.jpg" />
+			</div>
+		</section>
+	</div>
+</template>
+<script>
+	export default {}
+</script>
+
+<style lang="less" scoped>
+	.section {
+		padding: 40px 15%;
+		h1 {
+			font-size: 2rem;
+			margin-bottom: 1rem;
+		}
+		p {
+			font-size: 1.5rem;
+			line-height: 2;
+		}
+	}
+	
+	.section-flex {
+		display: flex;
+		.left {
+			flex: 0 0 50%;
+			margin-top: 10%;
+		}
+		.right {
+			flex: 0 0 50%;
+		}
+	}
+	
+	.codeimg {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+</style>

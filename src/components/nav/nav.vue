@@ -1,7 +1,7 @@
 <template>
 	<div class="header">
 		<div class="logo">
-			<router-link to="/">拥抱最新前端技术，打造极致用户体验。</router-link>
+			<router-link to="/">赵海鹏官网</router-link>
 		</div>
 		<ul class="nav">
 			<li class="item">
@@ -11,10 +11,10 @@
 				<router-link to="/hello">Hello</router-link>
 			</li>
 			<li class="item">
-				<router-link to="/hello">组件库</router-link>
+				<router-link to="/compts">组件库</router-link>
 			</li>
 			<li class="item">
-				<router-link to="/hello">关于</router-link>
+				<router-link to="/about">关于</router-link>
 			</li>
 		</ul>
 	</div>
