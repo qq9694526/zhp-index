@@ -12,10 +12,9 @@
 				UI框架：bootStrap,MUI</br>
 				JS库：jQuery,requireJs,Swiper</br>
 				JS框架：Angular,React,Vue</br>
-				模板引擎：HandleBars </br>
-				编辑器:phpStrom,sublime,HBuilder</br>
+				模板引擎：Handlebars </br>
 				版本控制工具：git,svn</br>
-				打包构建工具：webpack，gulp</p>
+				打包构建工具：webpack,gulp</p>
 		</section>
 		<section class="section">
 			<h1>项目</h1>

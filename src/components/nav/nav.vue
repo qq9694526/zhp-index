@@ -117,7 +117,9 @@
 				right: 0;
 				top: 61px;
 				width: 100%;
+				height: auto;
 				text-align: center;
+				box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.25);
 				.item {
 					display: block;
 					font-size: 1rem;
