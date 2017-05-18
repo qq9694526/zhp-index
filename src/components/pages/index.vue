@@ -7,14 +7,15 @@
 		<section class="section section-flex">
 			<div class="left">
 				<h1>在路上</h1>
-				<p>近一年工作成果展示&nbsp;&nbsp;&nbsp;---></p>
-				<p>微信扫码,获取更佳浏览体验</p>
+				<p class="hidden-xs">近一年开发项目&nbsp;&nbsp;&nbsp;---></p>
+				<p class="hidden-xs">微信扫码,获取更佳浏览体验</p>
+				<p class="visible-xs">长按二维码查看近一年开发项目</p>
 				<p>
 					<img class="codeimg" src="../../assets/img/workerscode.png" />
 					<small>ps:感谢侯晓利同学友情提供的UI</small>
 				</p>
 			</div>
-			<div class="right">
+			<div class="right hidden-xs">
 				<v-iphone></v-iphone>
 			</div>
 		</section>
@@ -25,7 +26,11 @@
 		</section>
 		<section class="section">
 			<h1>梦想</h1>
-			<p>书橱、落地窗、躺椅、《你一生的故事》，嗯，最好再配一抹斜阳，这大概就是我向往的生活。</p>
+			<p>阅读和写作。这么说可能略显单薄，特意配了张图。</p>
+			<div class="well">
+				<p>书橱、落地窗、躺椅、《你一生的故事》，嗯，最好再配一抹斜阳，这大概就是我向往的生活。</p>
+				<p class="text-right"><small>---这就是图，请用心感受</small></p>
+			</div>
 		</section>
 	</div>
 </template>
@@ -39,18 +44,6 @@
 </script>
 
 <style lang="less" scoped>
-	.section {
-		padding: 40px 15%;
-		h1 {
-			font-size: 2rem;
-			margin-bottom: 1rem;
-		}
-		p {
-			font-size: 1.5rem;
-			line-height: 2;
-		}
-	}
-	
 	.section-flex {
 		display: flex;
 		.left {
@@ -68,17 +61,12 @@
 		}
 	}
 	
-	.code-wrapper {
-		display: flex;
-		.codeimg {
-			flex: 0 0 20%;
-		}
-		.text{
-			display: flex;
-			flex-direction: column;
-			justify-content: flex-end;
-			font-size: 1rem;
-			line-height: 1.5rem;
+	@media (max-width:767px){
+		.section-flex .left .codeimg{
+			display: block;
+			width: 50%;
+			margin: 10px auto;
 		}
 	}
+	
 </style>

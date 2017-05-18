@@ -2,19 +2,20 @@
 	<div class="about">
 		<section class="section">
 			<h1>简介</h1>
-			<p>一名<b>成熟、有理想</b>的web前端工程师。</p>
+			<p>一名<b>成熟、丰满、有理想</b>的web前端工程师。</p>
 			<!--<p>座右铭：拥抱最新前端技术，打造极致用户体验。</p>-->
 		</section>
 		<section class="section">
 			<h1>技术栈</h1>
 			<p>基础：html5,css3,ES6</br>
-预编译：less</br>
-UI框架：bootStrap,MUI</br>
-JS库：jQuery,requireJs,swiper</br>
-JS框架：Angular,React,Vue</br>
-编辑器:phpStrom,sublime,HBuilder</br>
-版本控制工具：git,svn</br>
-打包构建工具：webpack，gulp</p>
+				预编译：less</br>
+				UI框架：bootStrap,MUI</br>
+				JS库：jQuery,requireJs,Swiper</br>
+				JS框架：Angular,React,Vue</br>
+				模板引擎：HandleBars </br>
+				编辑器:phpStrom,sublime,HBuilder</br>
+				版本控制工具：git,svn</br>
+				打包构建工具：webpack，gulp</p>
 		</section>
 		<section class="section">
 			<h1>项目</h1>
@@ -28,7 +29,9 @@ JS框架：Angular,React,Vue</br>
 			<p>
 				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=9694526&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:9694526:51" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
 			</p>
-			<p><a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=7dTb1NnY39utnJzDjoKA" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a></p>
+			<p>
+				<a target="_blank" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=7dTb1NnY39utnJzDjoKA" style="text-decoration:none;"><img src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png" /></a>
+			</p>
 		</section>
 		<section class="section section-flex">
 			<div class="left">
@@ -47,18 +50,6 @@ JS框架：Angular,React,Vue</br>
 </script>
 
 <style lang="less" scoped>
-	.section {
-		padding: 40px 15%;
-		h1 {
-			font-size: 2rem;
-			margin-bottom: 1rem;
-		}
-		p {
-			font-size: 1.5rem;
-			line-height: 2;
-		}
-	}
-	
 	.section-flex {
 		display: flex;
 		.left {
@@ -74,5 +65,11 @@ JS框架：Angular,React,Vue</br>
 		display: block;
 		width: 50%;
 		margin: 0 auto;
+	}
+	
+	@media (max-width: 767px) {
+		.section-flex {
+			display: block;
+		}
 	}
 </style>
