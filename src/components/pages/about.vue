@@ -2,19 +2,20 @@
 	<div class="about">
 		<section class="section">
 			<h1>简介</h1>
-			<p>一名<b>成熟、丰满、有理想</b>的web前端工程师。</p>
+			<p>一名
+				<b>成熟、丰满、有理想</b>的web前端攻城狮。前端攻城5年，精通Javascript、Vue、Node、Solidity、小程序等。一直致力于Web技术的研究，擅长前端自动化、工程化，在前端跨栈进阶到 Node.js 开发的编程道路上颇有心得。智能合约开发践行者。</p>
 			<!--<p>座右铭：拥抱最新前端技术，打造极致用户体验。</p>-->
 		</section>
 		<section class="section">
 			<h1>技术栈</h1>
-			<p>基础：html5,css3,ES6</br>
-				预编译：less</br>
-				UI框架：bootStrap,MUI</br>
+			<p>基础：html5,css3,ES6,solidity,小程序</br>
+				预编译：less,scss</br>
+				UI框架：bootStrap,MUI,ElementUI,iView</br>
 				JS库：jQuery,requireJs,Swiper</br>
 				JS框架：Angular,React,Vue</br>
-				模板引擎：Handlebars </br>
-				版本控制工具：git,svn</br>
-				打包构建工具：webpack,gulp</p>
+				node后端：koa,egg,sequelize,mysql</br> 
+				前端工程化：git,npm,webpack,gulp
+			</p>
 		</section>
 		<section class="section">
 			<h1>项目</h1>
@@ -45,30 +46,30 @@
 	</div>
 </template>
 <script>
-	export default {}
+export default {};
 </script>
 
 <style lang="less" scoped>
-	.section-flex {
-		display: flex;
-		.left {
-			flex: 0 0 50%;
-			margin-top: 10%;
-		}
-		.right {
-			flex: 0 0 50%;
-		}
-	}
-	
-	.codeimg {
-		display: block;
-		width: 50%;
-		margin: 0 auto;
-	}
-	
-	@media (max-width: 767px) {
-		.section-flex {
-			display: block;
-		}
-	}
+.section-flex {
+  display: flex;
+  .left {
+    flex: 0 0 50%;
+    margin-top: 10%;
+  }
+  .right {
+    flex: 0 0 50%;
+  }
+}
+
+.codeimg {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .section-flex {
+    display: block;
+  }
+}
 </style>
