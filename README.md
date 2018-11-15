@@ -1,6 +1,6 @@
 # zhpindex
 
-> 使用VUE构建个主页人站点
+> 使用VUE构建的个人主页站点
 
 ## Build Setup
 
